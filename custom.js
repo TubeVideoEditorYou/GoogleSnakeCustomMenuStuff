@@ -216,6 +216,12 @@ window.snake.more_menu = function() {
 
 
   /*--COUNTS--*/
+  // 10
+  img = new Image;
+  img.src = 'https://github.com/TubeVideoEditorYou/GoogleSnakeCustomMenuStuffImages/blob/main/10.png?raw=true';
+  img.width = 47;
+  img.height = 47;
+  document.querySelector('#count').appendChild(img);
 
   // 13
   img = new Image;
